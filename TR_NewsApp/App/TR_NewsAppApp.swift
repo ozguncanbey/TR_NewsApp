@@ -11,7 +11,8 @@ import SwiftUI
 struct TR_NewsAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NewsListView()
+                .environmentObject(NewsListViewModel())
         }
     }
 }
