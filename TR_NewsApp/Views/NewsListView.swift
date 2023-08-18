@@ -9,7 +9,7 @@ import SwiftUI
 
 struct NewsListView: View {
     @EnvironmentObject var viewModel: NewsListViewModel
-    @State private var isRefreshing = false
+//    @State private var isRefreshing = false
     
     var body: some View {
         NavigationView {
@@ -19,6 +19,13 @@ struct NewsListView: View {
                         NewsRow(newsArticle: viewModel.news[index])
                     }
                 }
+                .listStyle(.grouped)
+                .refreshable {
+                    await viewModel.refreshNews()
+                }
+//                .modifier(RefreshableModifier(refreshing: $isRefreshing, action: {
+//                    viewModel.refreshNews()
+//                }))
                 .navigationTitle("News")
             }
             .padding()

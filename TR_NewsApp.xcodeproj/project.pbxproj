@@ -17,7 +17,6 @@
 		77825FEC2A8F8F10004AA3F5 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77825FEB2A8F8F10004AA3F5 /* NetworkManager.swift */; };
 		77825FEE2A8F935B004AA3F5 /* API_URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77825FED2A8F935B004AA3F5 /* API_URLs.swift */; };
 		77825FF02A8FADE9004AA3F5 /* NewsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77825FEF2A8FADE9004AA3F5 /* NewsRow.swift */; };
-		77825FF22A8FB9FD004AA3F5 /* RefreshableModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77825FF12A8FB9FD004AA3F5 /* RefreshableModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +31,6 @@
 		77825FEB2A8F8F10004AA3F5 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		77825FED2A8F935B004AA3F5 /* API_URLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API_URLs.swift; sourceTree = "<group>"; };
 		77825FEF2A8FADE9004AA3F5 /* NewsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsRow.swift; sourceTree = "<group>"; };
-		77825FF12A8FB9FD004AA3F5 /* RefreshableModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshableModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +64,6 @@
 			isa = PBXGroup;
 			children = (
 				77825FDD2A8F8E03004AA3F5 /* App */,
-				77825FE32A8F8E3A004AA3F5 /* Extentions */,
 				77825FE22A8F8E32004AA3F5 /* Utilities */,
 				77825FE12A8F8E2B004AA3F5 /* Services */,
 				77825FE02A8F8E26004AA3F5 /* Models */,
@@ -132,16 +129,8 @@
 			children = (
 				77825FEB2A8F8F10004AA3F5 /* NetworkManager.swift */,
 				77825FED2A8F935B004AA3F5 /* API_URLs.swift */,
-				77825FF12A8FB9FD004AA3F5 /* RefreshableModifier.swift */,
 			);
 			path = Utilities;
-			sourceTree = "<group>";
-		};
-		77825FE32A8F8E3A004AA3F5 /* Extentions */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Extentions;
 			sourceTree = "<group>";
 		};
 		77825FE42A8F8E41004AA3F5 /* CustomViews */ = {
@@ -226,7 +215,6 @@
 				77825FEE2A8F935B004AA3F5 /* API_URLs.swift in Sources */,
 				77825FEA2A8F8F03004AA3F5 /* NewsService.swift in Sources */,
 				77825FD22A8F8DF3004AA3F5 /* NewsListView.swift in Sources */,
-				77825FF22A8FB9FD004AA3F5 /* RefreshableModifier.swift in Sources */,
 				77825FD02A8F8DF3004AA3F5 /* TR_NewsAppApp.swift in Sources */,
 				77825FF02A8FADE9004AA3F5 /* NewsRow.swift in Sources */,
 				77825FE82A8F8EEB004AA3F5 /* News.swift in Sources */,

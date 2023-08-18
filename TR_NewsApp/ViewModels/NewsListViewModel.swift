@@ -24,14 +24,14 @@ final class NewsListViewModel: ObservableObject {
         }
     }
     
-//    func refreshNews() {
-//        service.downloadNews { [weak self] returnedNews in
-//            guard let self = self else { return }
-//            guard let returnedNews = returnedNews else { return }
-//
-//            DispatchQueue.main.async {
-//                self.news = returnedNews
-//            }
-//        }
-//    }
+    func refreshNews() async {
+        service.downloadNews { [weak self] returnedNews in
+            guard let self = self else { return }
+            guard let returnedNews = returnedNews else { return }
+
+            DispatchQueue.main.async {
+                self.news = returnedNews
+            }
+        }
+    }
 }
