@@ -15,8 +15,9 @@ TR News App is a simple iOS application built using SwiftUI that fetches and dis
 - iOS 14.0 or later
 
 ## Screenshots
-* (https://github.com/ozguncanbey/TR_NewsApp/assets/138692325/daea15ba-b359-4e01-92e5-a98dc5972b72)
+
 * (https://github.com/ozguncanbey/TR_NewsApp/assets/138692325/01bb7c28-3746-44d8-a72c-a012442de5df)
+* (https://github.com/ozguncanbey/TR_NewsApp/assets/138692325/daea15ba-b359-4e01-92e5-a98dc5972b72)
 
 ## Installation
 
